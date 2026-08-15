@@ -1,0 +1,22 @@
+{
+  "name": "surething-website-fullstack",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun run build && node dev.mjs",
+    "build": "vite build && node build.mjs",
+    "drizzle:generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.44.6",
+    "hono": "^4.9.10"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250906.0",
+    "drizzle-kit": "^0.31.6",
+    "esbuild": "^0.25.10",
+    "miniflare": "^4.20250906.0",
+    "typescript": "^7.0.2",
+    "vite": "^7.1.7"
+  }
+}
