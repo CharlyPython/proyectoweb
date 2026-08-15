@@ -1,0 +1,7 @@
+{
+  "entry": "src/worker.ts",
+  "bindings": [
+    { "type": "sqlite", "name": "DB", "database": "main", "migrationsDir": "migrations/db" }
+  ],
+  "notFound": "single-page-application"
+}
