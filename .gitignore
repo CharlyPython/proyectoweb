@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.surething-build.log
+*.tsbuildinfo*
+.env
+.env.local
